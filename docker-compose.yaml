@@ -1,0 +1,10 @@
+version: "3"
+services:
+  pos_system_back:
+    build:
+      context: ./pos_system_back
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - ./pos_system_back:/app

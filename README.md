@@ -1,5 +1,5 @@
-# Pos System Back
-Spring boot API for Pos type system
+# pos-app-back
+Spring boot API for Pos type app
 
 
 To run the project:
@@ -17,4 +17,3 @@ sh mvnw spring-boot:run
 ```bash
 docker-compose up
 ```
-# pos-app-back
